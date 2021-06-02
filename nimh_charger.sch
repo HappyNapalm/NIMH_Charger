@@ -103,17 +103,6 @@ F 3 "" H 4000 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 2150 4000 2250
-$Comp
-L Regulator_Linear:LM317L_TO92 U1
-U 1 1 604752C8
-P 4800 1350
-F 0 "U1" H 4800 1592 50  0000 C CNN
-F 1 "LM317L_TO92" H 4800 1501 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 1575 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf" H 4800 1350 50  0001 C CNN
-	1    4800 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 1350 4500 1350
 Connection ~ 4000 1350
@@ -328,7 +317,7 @@ U 1 1 604832AF
 P 3500 3100
 F 0 "Q2" H 3690 3146 50  0000 L CNN
 F 1 "2N2219" H 3690 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 3700 3025 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3700 3025 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3500 3100 50  0001 L CNN
 	1    3500 3100
 	1    0    0    -1  
@@ -657,9 +646,20 @@ U 1 1 60AA5CAE
 P 1850 1550
 F 0 "J1" H 1907 2017 50  0000 C CNN
 F 1 "USB_B_Mini" H 1907 1926 50  0000 C CNN
-F 2 "" H 2000 1500 50  0001 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 2000 1500 50  0001 C CNN
 F 3 "~" H 2000 1500 50  0001 C CNN
 	1    1850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM317_3PinPackage U1
+U 1 1 60B707CA
+P 4800 1350
+F 0 "U1" H 4800 1592 50  0000 C CNN
+F 1 "LM317_3PinPackage" H 4800 1501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4800 1600 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4800 1350 50  0001 C CNN
+	1    4800 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
