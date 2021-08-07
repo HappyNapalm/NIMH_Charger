@@ -662,4 +662,26 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4800 1350 50  0001 C CNN
 	1    4800 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 610F8324
+P 850 750
+F 0 "H1" H 950 796 50  0000 L CNN
+F 1 "MountingHole" H 950 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 850 750 50  0001 C CNN
+F 3 "~" H 850 750 50  0001 C CNN
+	1    850  750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 610F90F1
+P 850 950
+F 0 "H2" H 950 996 50  0000 L CNN
+F 1 "MountingHole" H 950 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 850 950 50  0001 C CNN
+F 3 "~" H 850 950 50  0001 C CNN
+	1    850  950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
